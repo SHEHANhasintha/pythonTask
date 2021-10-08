@@ -1,0 +1,15 @@
+{
+	"markdown.preview.typographer": true,
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"pythonIndent.useTabOnHangingIndent": true,
+	"pythonIndent.trimLinesWithOnlyWhitespace": true,
+	"pythonIndent.keepHangingBracketOnLine": true,
+	"python.pydev.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
+	"autoDocstring.includeExtendedSummary": true,
+	"autoDocstring.includeName": true,
+	"autoDocstring.logLevel": "Debug",
+	"autoDocstring.startOnNewLine": true,
+	"autoDocstring.docstringFormat": "docblockr"
+}

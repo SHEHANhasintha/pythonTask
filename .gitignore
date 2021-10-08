@@ -1,0 +1,4 @@
+/sqlTask/*
+/__pycache__/*
+.env
+tempCodeRunnerFile.py

@@ -1,0 +1,40 @@
+{
+	"users": [
+		{
+			"indexNumber": 1,
+			"name": {
+				"firstName": "Shehan",
+				"lastName": "Hasintha"
+			},
+			"age": 30,
+			"location": "kurunegala"
+		},
+		{
+			"indexNumber": 2,
+			"name": {
+				"firstName": "kasun",
+				"lastName": "kalhara"
+			},
+			"age": 24,
+			"location": "Colombo"
+		},
+		{
+			"indexNumber": 3,
+			"name": {
+				"firstName": "Beta",
+				"lastName": "alpha"
+			},
+			"age": 21,
+			"location": "Australia"
+		},
+		{
+			"indexNumber": 8,
+			"name": {
+				"firstName": "newuser",
+				"lastName": "alpha"
+			},
+			"age": 21,
+			"location": "Australia3"
+		}
+	]
+}
