@@ -1,20 +1,30 @@
+import os
 from mysql.connector import (connection);
 from mysql.connector import (errorcode)
+from dotenv import load_dotenv;
+from os.path import join, dirname
 
 """
     SqlClass Handler
     This class deals with the sql classes that handles transection and establish connection with DB
 """
 
+dotenv_path = join(dirname(__file__), '.env')
+load_dotenv(dotenv_path)
+
+SECRET_KEY = os.environ.get("USERNAME")
+DATABASE_PASSWORD = os.environ.get("PASSWORD")
+HOST = os.environ.get("HOST")
+DB = os.environ.get("DB")
 
 class Database(object):
     cursor = None;
     conn = None;
     def __init__(self,
-                user='shehan',
-                password='Shehan@53645',
-                host='127.0.0.1',
-                database='clients'):
+                user=SECRET_KEY,
+                password=DATABASE_PASSWORD,
+                host=HOST,
+                database=DB):
         self.user = user;
         self.password = password;
         self.host = host;
